@@ -1,0 +1,11 @@
+Sistema de estacionamento 
+
+html/css/php/codeigniter/mvc
+
+-editar controllers/welcome.php
+
+- criar um arquivo .htaccess na raiz(responsalvel reconherer o objeto/..., e retirar a externsão do arquivo da url '.php' ) e alterar um controller
+- criar view com nome com letra minuscula pq dos servidores
+- criar controller Homer com letra maiuscula
+- criar pasta home > e arquivo index.php
+- definir no config/routers.php a pasta home como o defalult
