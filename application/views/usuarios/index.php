@@ -8,7 +8,7 @@
 
                 <div class="main-content">
                     <div class="container-fluid">
-                        <h1>HOME</h1>
+                        <h1>USUÁRIOS</h1>
                     </div>
                 </div>
 
