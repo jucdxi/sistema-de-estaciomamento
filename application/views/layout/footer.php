@@ -109,8 +109,17 @@
         <script src="<?php echo base_url ('public/plugins/c3/c3.min.js')?>"></script>
         <script src="<?php echo base_url ('public/js/tables.js')?>"></script>
         <script src="<?php echo base_url ('public/js/widgets.js')?>"></script>
-        <script src="<?php echo base_url ('public/js/charts.js')?>"></script>-->        
+        <script src="<?php echo base_url ('public/js/charts.js')?>"></script>--> 
+
         <script src="<?php echo base_url ('public/dist/js/theme.min.js')?>"></script>
+
+        <?php if(isset($scripts)): ?>
+
+            <?php foreach($scripts as $script): ?>
+                  <script src="<?php echo base_url ('public/'.$script); ?>"></script>
+            <?php endforeach; ?>
+
+        <?php endif; ?>  
        
     </body>
 </html>
